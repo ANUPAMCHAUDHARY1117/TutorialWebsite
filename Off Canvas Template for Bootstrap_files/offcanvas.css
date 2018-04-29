@@ -84,3 +84,23 @@ footer {
 .bg-right {
   background: url("https://unsplash.imgix.net/photo-1416339442236-8ceb164046f8?q=75&fm=jpg&s=8eb83df8a744544977722717b1ea4d09");
 }
+
+
+
+
+
+
+i.fa {
+  display: inline-block;
+  border-radius: 40px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+  color : #ffffff;
+
+}
+
+.fontAwesomeIcons {
+  text-align:right;
+  padding-top: 5%;
+  padding-right: 20%;
+}
