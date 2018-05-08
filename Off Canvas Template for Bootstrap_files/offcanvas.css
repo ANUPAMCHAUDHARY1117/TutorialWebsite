@@ -5,6 +5,7 @@
 html,
 body {
   overflow-x: hidden; /* Prevent scroll on narrow devices */
+  background-color: #F5F5F5
 }
 body {
   padding-top: 70px;
@@ -103,4 +104,25 @@ i.fa {
   text-align:right;
   padding-top: 5%;
   padding-right: 20%;
+}
+
+.notepad {
+  background-color: #E0E0E0;
+  padding-top: 2%;
+  padding-bottom : 2%;
+  padding-left : 20%;
+}
+
+.notepad2 {
+  background-color:#F0F0F0;
+  padding-left : 5%;
+  
+}
+
+.list-group-item {
+  color : #000000
+}
+
+.page-link{
+  color : #000000
 }

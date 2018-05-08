@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <!-- saved from url=(0053)https://v4-alpha.getbootstrap.com/examples/offcanvas/ -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html lang="en"><head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118911554-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-118911554-1');
+    </script>
+
+
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -38,10 +51,10 @@
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
               <a class="navbar-brand" href="#">Codute</a>
               <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-                <li class="nav-item active">
+                <li class="nav-item ">
                   <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item active">
                   <a class="nav-link" href="#">Courses</a>
                 </li>
                 <li class="nav-item">
@@ -102,12 +115,12 @@
             
           </p>
                     <div class="jumbotron">
-            <h1>HTML Introduction</h1>
-            
-          </div>
+                        <h1>HTML Introduction</h1>
+                    </div>
           <div class="row">
             <div class="col-md-9">
-              <h1>What is HTML?</h1>
+              <h2>What is HTML?</h2>
+                  <br>
                   <ul>
                     <li>HTML is the standard markup language for creating Web pages.
                     <li> HTML stands for Hyper Text Markup Language
@@ -116,8 +129,32 @@
                     <li>HTML elements are represented by tags
                     <li>HTML tags label pieces of content such as "heading", "paragraph", "table", and so on
                     <li>Browsers do not display the HTML tags, but use them to render the content of the page
-                  </ul>
-                  </div>
+                  </ul><br>
+
+                    <h3>Basic HTML File</h3><br>
+                  
+                      <div class="notepad">
+                      &lt;!DOCTYPE html&gt;<br>
+                      &lt;html&gt;<br>
+                      
+                      &nbsp;&lt;head&gt;<br>
+                      &nbsp;&nbsp;&lt;title&gt;This is document title&lt;/title&gt;<br>
+                      &nbsp;&lt;/head&gt;<br>
+                        
+                      &nbsp;&nbsp;&lt;body&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&lt;h1&gt;This is a heading&lt;/h1&gt;<br>
+                      &nbsp;&nbsp;&nbsp;&lt;p&gt;Document content goes here.....&lt;/p&gt;<br>
+                      &nbsp;&nbsp;&lt;/body&gt;<br>
+                        
+                      &lt;/html&gt;
+                      </div>
+                      <br>
+                      <div class="notepad2">
+                        <h1>This is a heading</h1>
+                        <p>Document content goes here.....</p>
+                      </div>
+                  
+            </div>
                   
             <div class="col-md-6"></div>
           </div><!--/row-->
@@ -136,13 +173,14 @@
     <br><br><br>
     <nav aria-label="Page navigation example">
       <ul class="pagination justify-content-center">
-        <li class="page-item">
+        <li class="page-item-mod">
           <a class="page-link" href="#">Previous</a>
         </li>
-        <li class="page-item">
-          <a class="page-link" href="#">Next</a>
+        <li class="page-item-mod">
+          <a class="page-link" href="#">Next&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </a>
         </li>
       </ul>
+      
     </nav>
     <!--Pagination-->
 
