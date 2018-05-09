@@ -79,11 +79,11 @@ footer {
 }
 
 .bg-left {
-  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../img/bookmark-bowl-business-705675 (2)_1500x492.jpg");
+  background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("../img/blurred-background.jpg");
 }
 
 .bg-right {
-  background: url("../img/bookmark-bowl-business-705675 (2)_1500x492.jpg");
+  background: url("../img/blurred-background.jpg");
 }
 
 
