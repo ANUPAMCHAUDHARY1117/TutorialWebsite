@@ -1,0 +1,177 @@
+
+@media only screen and (max-width : 1200px){
+    .hero-text-box{
+        width: 100%;
+    }
+
+    .row {
+        padding: 0 2%;
+    }
+}
+
+/*----------Ipad and Portrait-------------*/
+@media only screen and (max-width : 1023px){
+    body { font-size: 18px;}
+    section {padding : 60px, 0;}
+
+    .long-copy{
+        width :  80%;
+        margin-left: 10%;
+    }
+
+    .flex-row { 
+        -ms-flex-wrap: wrap;
+         flex-wrap: wrap;
+        }
+        
+    .flex-row1 {
+        -ms-flex-wrap: wrap-reverse;
+            flex-wrap: wrap-reverse;
+            flex-direction: column-reverse;
+    } 
+    .flex-column1{
+        padding : 5% 0px;
+    }
+    .flex-column4{
+        padding: 5% 0%;
+    }
+    .flex-column1,
+    .flex-column2 { 
+        -ms-flex-preferred-size: 100%; 
+            flex-basis: 100%;
+            max-width: 95%;
+     }
+     .flex-column1 h,
+     .flex-column1 p{
+         text-align: center;
+     }
+
+     .flex-column3{
+         flex-basis: 50%;
+         max-width: 95%;
+     }
+    .flex-column4 { 
+        -ms-flex-preferred-size: 50%; 
+            flex-basis: 50%;
+     }
+     .flex-column4 h,
+     .flex-column4 p{
+         text-align: center;
+     }
+
+     .section-courses{
+         display:none;
+     }
+     
+     .section-courses-flex{
+        display: block;
+    }
+    
+    .flex-row-1{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin-top : 5%;
+    }
+
+    .flex-column-course-1{
+        height: 180px;
+        margin : 2% 5%;
+        text-align: center;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.6))), url(img/column-1-flex.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/column-1-flex.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .flex-column-course-1 h3,
+    .flex-column-course-2 h3,
+    .flex-column-course-3 h3,
+    .flex-column-course-4 h3,
+    .flex-column-course-5 h3{
+        color: #ffffff;
+        margin-top: 15%;
+    }
+
+    .flex-column-course-2{
+        height: 180px;
+        margin : 2% 5%;
+        text-align: center;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.6))), url(img/column-2-flex.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/column-2-flex.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .flex-column-course-3{
+        height: 180px;
+        margin : 2% 5%;
+        text-align: center;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.6))), url(img/column-3-flex.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/column-3-flex.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .flex-column-course-4{
+        height: 180px;
+        margin : 2% 5%;
+        text-align: center;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.6))), url(img/column-4-flex.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/column-4-flex.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    .flex-column-course-5{
+        height: 180px;
+        margin : 2% 5%;
+        text-align: center;
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.6)), to(rgba(0,0,0,0.6))), url(img/column-5-flex.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(img/column-5-flex.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+   
+}
+
+/*---------Medium phones--------*/
+@media only screen and (max-width : 767px){
+    body { font-size: 16px; }
+    section { padding: 30px 0; }
+    
+    .row,
+    .hero-text-box { padding: 0 4%; }
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    
+    .main-nav li{
+        display: block;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border: 0;
+    }
+
+    
+    .main-nav {
+        display: none;
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+}
+
+/*-----Small phones-------*/
+@media only screen and (max-width: 480px){
+    section { padding: 25px 0; }
+}
