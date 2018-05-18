@@ -1,0 +1,43 @@
+
+html,
+body {
+  height: 100%;
+}
+.jumbotron {
+  margin-top: 30px;
+}
+
+.sidebar{
+  position:absolute;
+  background-color: black;
+  z-index: 2;
+}
+.toggle{
+  display: none;
+}
+.content .btn-group {
+  margin-bottom: 10px;
+}
+
+.collapsed {
+  display: none; /* hide it for small displays */
+}
+@media only screen and (max-width : 991px){
+  .sidebar{
+    display: none;
+  }
+
+  .toggle{
+    display: block;
+    position: fixed;
+    top : 0;
+    left : 0;
+    width : 100%;
+    z-index: 3;
+    margin-top: 15px;
+    margin-left: 10%;
+  }
+
+ 
+
+}
